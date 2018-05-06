@@ -18,9 +18,3 @@ attendees.each_with_index.map do |attendee, index|
   "Hello, #{attendee}! You'll be assigned to room #{index.to_i+1}!"
 end
 end
-
-
-
-
-
-
