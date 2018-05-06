@@ -14,7 +14,7 @@ end
 
 def assign_rooms(attendees)
 attendees.each_with_index.map do |attendee, index|
-  attendees[attendee]= index
+  attendees[attendee]= index.parse
   "Hello, #{attendee}! You'll be assigned to room #{index.parse+1}!"
 end
 end
