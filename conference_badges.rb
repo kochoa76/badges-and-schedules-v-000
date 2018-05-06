@@ -28,7 +28,3 @@ def printer(attendees)
     puts assignment
   end
 end
-
-
-
-
